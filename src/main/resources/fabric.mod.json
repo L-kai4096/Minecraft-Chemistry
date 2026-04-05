@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft_chemistry",
+  "version": "${version}",
+  "name": "Minecraft Chemistry",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/minecraft_chemistry/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.kk.minecraft_chemistry.client.mainDataGenerator"
+    ],
+    "client": [
+      "com.kk.minecraft_chemistry.client.mainClient"
+    ],
+    "main": [
+      "com.kk.minecraft_chemistry.main"
+    ]
+  },
+  "mixins": [
+    "minecraft_chemistry.mixins.json",
+    {
+      "config": "minecraft_chemistry.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-language-kotlin": ">=1.13.8+kotlin.2.3.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.5"
+  }
+}

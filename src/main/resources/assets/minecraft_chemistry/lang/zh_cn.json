@@ -1,0 +1,142 @@
+{
+  "itemGroup.tutorial.test_group": "化学",
+
+  "item.chemistry.hydrogen": "氢",
+  "item.chemistry.hydrogen.tooltip1": "一种易燃易爆的气体，不当使用会造成大量伤害！",
+  "item.chemistry.hydrogen.tooltip2": "但如果使用得当，或许能对战斗有很大帮助......",
+  "item.chemistry.hydrogen.tooltip3": "获取方式：电解水制氢",
+
+  "item.chemistry.helium": "氦",
+
+  "item.chemistry.lithium": "锂",
+
+  "item.chemistry.beryllium": "铍",
+
+  "item.chemistry.boron": "硼",
+
+  "item.chemistry.carbon": "碳",
+
+  "item.chemistry.nitrogen": "氮",
+
+  "item.chemistry.oxygen": "氧",
+  "item.chemistry.oxygen.tooltip1": "生命的维系者，可以在无氧气时救你一命",
+  "item.chemistry.oxygen.tooltip2": "但若使用不当，或许会助纣为虐...",
+  "item.chemistry.oxygen.tooltip3": "吸纯氧有毒！！！",
+  "item.chemistry.oxygen.tooltip4": "获取方式：高锰酸钾或氯酸钾加热制氧，过氧化氢分解制氧或者电解水制氧，也可以从空气中提取（需氮氧提取机）",
+
+  "item.chemistry.fluorine": "氟",
+
+  "item.chemistry.neon": "氖",
+
+  "item.chemistry.sodium": "钠",
+
+  "item.chemistry.magnesium": "镁",
+
+  "item.chemistry.aluminum": "铝",
+
+  "item.chemistry.silicon": "硅",
+
+  "item.chemistry.phosphorus": "磷",
+
+  "item.chemistry.sulfur": "硫",
+
+  "item.chemistry.chlorine": "氯",
+
+  "item.chemistry.potassium": "钾",
+
+  "item.chemistry.calcium": "钙",
+
+  "item.chemistry.titanium": "钛",
+
+  "item.chemistry.chromium": "铬",
+
+  "item.chemistry.manganese": "锰",
+
+  "item.chemistry.iron": "铁",
+
+  "item.chemistry.cobalt": "钴",
+
+  "item.chemistry.nickel": "镍",
+
+  "item.chemistry.copper": "铜",
+
+  "item.chemistry.zinc": "锌",
+
+  "item.chemistry.gallium": "镓",
+
+  "item.chemistry.silver": "银",
+
+  "item.chemistry.tin": "锡",
+
+  "item.chemistry.iodine": "碘",
+
+  "item.chemistry.tungsten": "钨",
+
+  "item.chemistry.gold": "金",
+
+  "item.chemistry.mercury": "汞",
+
+  "item.chemistry.lead": "铅",
+
+  "item.chemistry.radium": "镭",
+
+  "item.chemistry.uranium": "铀",
+
+  "item.chemistry.plutonium": "钚",
+
+  "——————————————————————————————————————————————————————————————————————————————————————————————": "",
+
+  "item.chemistry.fe2_o3": "氧化铁",
+
+  "item.chemistry.fe3_o4": "四氧化三铁",
+
+  "item.chemistry.fe_o": "氧化亚铁",
+
+  "item.chemistry.n_o": "一氧化氮",
+
+  "item.chemistry.n_o2": "二氧化氮",
+
+  "item.chemistry.c_o": "一氧化碳",
+
+  "item.chemistry.c_o2": "二氧化碳",
+  "item.chemistry.c_o2.tooltip1": "一种无色无臭的气体",
+  "item.chemistry.c_o2.tooltip2": "不可燃，也不支持燃烧，不支持呼吸（这意味着你不能用它供给呼吸，但可以用于灭火）",
+  "item.chemistry.c_o2.tooltip3": "获取方式：碳酸钠和稀盐酸反应制二氧化碳，或收集呼出空气获得少量二氧化碳",
+
+  "item.chemistry.cu_o": "氧化铜",
+
+  "item.chemistry.al2_o3": "氧化铝",
+
+  "item.chemistry.h2_co3": "碳酸",
+
+  "item.chemistry.ca_co3": "碳酸钙",
+
+  "item.chemistry.ca_oh2": "氢氧化钙",
+
+  "item.chemistry.ca_o": "氧化钙",
+
+  "item.chemistry.h_cl": "盐酸",
+
+  "item.chemistry.h2_so4": "硫酸",
+
+  "item.chemistry.na2_co3": "碳酸钠",
+
+  "item.chemistry.c2_h5_oh": "乙醇",
+
+  "item.chemistry.c_h4": "甲烷",
+
+  "item.chemistry.h2_o": "纯水",
+
+  "——————————————————————————————————————————————————————————————————————————————————————————————": "",
+
+  "item.chemistry.carbon_item": "炭粉",
+  "item.chemistry.carbon_item.tooltip1": "可投掷的可燃物",
+  "item.chemistry.carbon_item.tooltip2": "获取方式：物理分解炭块（工作台！）",
+
+  "item.chemistry.tkmk_stack": "托卡马克（核聚变）反应堆",
+  "": "",
+
+  "item.chemistry.lb_stack": "裂变反应堆",
+
+  "item.chemistry.no_exactor": "氮氧提取器"
+}
