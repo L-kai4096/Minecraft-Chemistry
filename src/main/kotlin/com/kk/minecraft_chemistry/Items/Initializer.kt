@@ -194,9 +194,9 @@ class Initializer {
         @JvmStatic
         val Carbon_Item = ItemCreator.creator("carbon_item", { settings -> Carbon_Item(settings) }, Item.Settings())
 
-        // （核聚变）托卡马克反应堆
-        @JvmStatic
-        val TKMK_Stack = ItemCreator.creator("tkmk_stack", { settings -> TKMK_Stack(settings) }, Item.Settings())
+//        // （核聚变）托卡马克反应堆
+//        @JvmStatic
+//        val TKMK_Stack = ItemCreator.creator("tkmk_stack", { settings -> TKMK_Stack(settings) }, Item.Settings())
 
         // 裂变反应堆
         @JvmStatic
@@ -275,7 +275,7 @@ class Initializer {
 
             // 其他
             entries.add(Carbon_Item)
-            entries.add(TKMK_Stack)
+            //entries.add(TKMK_Stack)
             entries.add(LB_Stack)
             entries.add(NO_Extactor)
         }

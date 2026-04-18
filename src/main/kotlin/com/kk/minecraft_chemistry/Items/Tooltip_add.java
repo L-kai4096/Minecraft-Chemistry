@@ -189,9 +189,9 @@ public class Tooltip_add {
             }
 
             // 其他
-            if(itemStack.isOf(Initializer.getTKMK_Stack())){
-                list.add(Text.translatable("item.chemistry.tkmk_stack.tooltip1"));
-            }
+//            if(itemStack.isOf(Initializer.getTKMK_Stack())){
+//                list.add(Text.translatable("item.chemistry.tkmk_stack.tooltip1"));
+//            }
             if(itemStack.isOf(Initializer.getLB_Stack())){
                 list.add(Text.translatable("item.chemistry.lb_stack.tooltip1"));
             }
