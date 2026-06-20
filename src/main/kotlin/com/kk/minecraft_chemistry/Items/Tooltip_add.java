@@ -1,6 +1,7 @@
 package com.kk.minecraft_chemistry.Items;
 
 
+import com.kk.minecraft_chemistry.Items.Initializer;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.minecraft.text.Text;
 
@@ -139,9 +140,9 @@ public class Tooltip_add {
             if(itemStack.isOf(Initializer.getFeO())){
                 list.add(Text.translatable("item.chemistry.fe_o.tooltip1"));
             }
-            if(itemStack.isOf(Initializer.getNO())){
-                list.add(Text.translatable("item.chemistry.n_o.tooltip1"));
-            }
+//            if(itemStack.isOf(Initializer.getNO())){
+//                list.add(Text.translatable("item.chemistry.n_o.tooltip1"));
+//            }
             if(itemStack.isOf(Initializer.getNO2())){
                 list.add(Text.translatable("item.chemistry.n_o2.tooltip1"));
             }
@@ -158,25 +159,34 @@ public class Tooltip_add {
                 list.add(Text.translatable("item.chemistry.al2_o3.tooltip1"));
             }
             if(itemStack.isOf(Initializer.getH2CO3())){
-                list.add(Text.translatable("item.chemistry.h2_c_o3.tooltip1"));
+                list.add(Text.translatable("item.chemistry.h2_co3.tooltip1"));
             }
             if(itemStack.isOf(Initializer.getCaCO3())){
-                list.add(Text.translatable("item.chemistry.ca_c_o3.tooltip1"));
+                list.add(Text.translatable("item.chemistry.ca_co3.tooltip1"));
             }
-            if(itemStack.isOf(Initializer.getCaOH2())){
-                list.add(Text.translatable("item.chemistry.ca_oh_2.tooltip1"));
+            if(itemStack.isOf(Initializer.getCaOH2_liquid())){
+                list.add(Text.translatable("item.chemistry.ca_oh2.tooltip1"));
+            }
+            if(itemStack.isOf(Initializer.getCaOH2_solid())){
+                list.add(Text.translatable("item.chemistry.ca_oh2.tooltip1"));
             }
             if(itemStack.isOf(Initializer.getCaO())){
                 list.add(Text.translatable("item.chemistry.ca_o.tooltip1"));
             }
-            if(itemStack.isOf(Initializer.getHCl())){
+            if(itemStack.isOf(Initializer.getHCl_gas())){
+                list.add(Text.translatable("item.chemistry.h_cl.tooltip1"));
+            }
+            if(itemStack.isOf(Initializer.getHCl_liquid())){
                 list.add(Text.translatable("item.chemistry.h_cl.tooltip1"));
             }
             if(itemStack.isOf(Initializer.getH2SO4())){
-                list.add(Text.translatable("item.chemistry.h2_s_o4.tooltip1"));
+                list.add(Text.translatable("item.chemistry.h2_so4.tooltip1"));
             }
-            if(itemStack.isOf(Initializer.getNa2CO3())){
-                list.add(Text.translatable("item.chemistry.na2_c_o3.tooltip1"));
+            if(itemStack.isOf(Initializer.getNa2CO3_liquid())){
+                list.add(Text.translatable("item.chemistry.na2_co3.tooltip1"));
+            }
+            if(itemStack.isOf(Initializer.getNa2CO3_solid())){
+                list.add(Text.translatable("item.chemistry.na2_co3.tooltip1"));
             }
             if(itemStack.isOf(Initializer.getC2H5OH())){
                 list.add(Text.translatable("item.chemistry.c2_h5_oh.tooltip1"));

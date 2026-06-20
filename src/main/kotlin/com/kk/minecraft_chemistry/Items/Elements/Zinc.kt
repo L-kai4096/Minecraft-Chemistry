@@ -1,6 +1,0 @@
-package com.kk.minecraft_chemistry.Items.Elements
-
-import net.minecraft.item.Item
-
-class Zinc(settings: Settings): Item(settings) {
-}

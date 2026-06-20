@@ -1,9 +1,19 @@
 package com.kk.minecraft_chemistry.Items
 
 import com.kk.Method.ItemCreator
-import com.kk.minecraft_chemistry.Items.Elements.*
-import com.kk.minecraft_chemistry.Items.Compunds.*
+
+import com.kk.minecraft_chemistry.Items.Elements.gas.*
+import com.kk.minecraft_chemistry.Items.Elements.metal.*
+import com.kk.minecraft_chemistry.Items.Elements.inert_gas.*
+import com.kk.minecraft_chemistry.Items.Elements.non_metal.*
+import com.kk.minecraft_chemistry.Items.Elements.radio_active.*
+
+import com.kk.minecraft_chemistry.Items.compounds.gas.*
+import com.kk.minecraft_chemistry.Items.compounds.solid.*
+import com.kk.minecraft_chemistry.Items.compounds.liquid.*
+
 import com.kk.minecraft_chemistry.Items.Others.*
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
@@ -139,8 +149,8 @@ class Initializer {
         @JvmStatic
         val FeO = ItemCreator.creator("fe_o", { settings -> FeO(settings) }, Item.Settings())
 
-        @JvmStatic
-        val NO = ItemCreator.creator("n_o", { settings -> NO(settings) }, Item.Settings())
+//        @JvmStatic
+//        val NO = ItemCreator.creator("n_o", { settings -> NO(settings) }, Item.Settings())
 
         @JvmStatic
         val NO2 = ItemCreator.creator("n_o2", { settings -> NO2(settings) }, Item.Settings())
@@ -164,19 +174,28 @@ class Initializer {
         val CaCO3 = ItemCreator.creator("ca_co3", { settings -> CaCO3(settings) }, Item.Settings())
 
         @JvmStatic
-        val CaOH2 = ItemCreator.creator("ca_oh2", { settings -> `Ca(OH)2`(settings) }, Item.Settings())
+        val CaOH2_liquid = ItemCreator.creator("ca_oh2", { settings -> `Ca(OH)2_liquid`(settings) }, Item.Settings())
+
+        @JvmStatic
+        val CaOH2_solid = ItemCreator.creator("ca_oh2", { settings -> `Ca(OH)2_solid`(settings) }, Item.Settings())
 
         @JvmStatic
         val CaO = ItemCreator.creator("ca_o", { settings -> CaO(settings) }, Item.Settings())
 
         @JvmStatic
-        val HCl = ItemCreator.creator("h_cl", { settings -> HCl(settings) }, Item.Settings())
+        val HCl_gas = ItemCreator.creator("h_cl", { settings -> HCl_gas(settings) }, Item.Settings())
+
+        @JvmStatic
+        val HCl_liquid = ItemCreator.creator("h_cl", { settings -> HCl_liquid(settings) }, Item.Settings())
 
         @JvmStatic
         val H2SO4 = ItemCreator.creator("h2_so4", { settings -> H2SO4(settings) }, Item.Settings())
 
         @JvmStatic
-        val Na2CO3 = ItemCreator.creator("na2_co3", { settings -> Na2CO3(settings) }, Item.Settings())
+        val Na2CO3_liquid = ItemCreator.creator("na2_co3", { settings -> Na2CO3_liquid(settings) }, Item.Settings())
+
+        @JvmStatic
+        val Na2CO3_solid = ItemCreator.creator("na2_co3", { settings -> Na2CO3_solid(settings) }, Item.Settings())
 
         @JvmStatic
         val C2H5OH = ItemCreator.creator("c2_h5_oh", { settings -> C2H5OH(settings) }, Item.Settings())
@@ -256,7 +275,7 @@ class Initializer {
             entries.add(Fe2O3)
             entries.add(Fe3O4)
             entries.add(FeO)
-            entries.add(NO)
+//            entries.add(NO)
             entries.add(NO2)
             entries.add(CO)
             entries.add(CO2)
@@ -264,11 +283,14 @@ class Initializer {
             entries.add(Al2O3)
             entries.add(H2CO3)
             entries.add(CaCO3)
-            entries.add(CaOH2)
+            entries.add(CaOH2_solid)
+            entries.add(CaOH2_liquid)
             entries.add(CaO)
-            entries.add(HCl)
+            entries.add(HCl_liquid)
+            entries.add(HCl_gas)
             entries.add(H2SO4)
-            entries.add(Na2CO3)
+            entries.add(Na2CO3_liquid)
+            entries.add(Na2CO3_solid)
             entries.add(C2H5OH)
             entries.add(CH4)
             entries.add(H2O)
